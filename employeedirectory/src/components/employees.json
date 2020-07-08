@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Black_Man_Waving_Hand_Cartoon_Vector.svg/1200px-Black_Man_Waving_Hand_Cartoon_Vector.svg.png",
+      "name": "John Doe",
+      "position": "CEO",
+      "email": "John@outlook.com",
+      "phone": "0422 095 114",
+      "DOB": "12.09.1982"
+    },
+    {
+        "id": 2,
+        "image": "https://www.clipartkey.com/mpngs/m/153-1539728_cartoon-person-waving-cartoon-person-png.png",
+        "name": "Hugo Dow",
+        "position": "Managing Director",
+        "email": "Hugo@outlook.com",
+        "phone": "0412 098 124",
+        "DOB": "23.10.1992"
+      },
+      {
+        "id": 3,
+        "image": "https://vig",
+        "name": "John Doe",
+        "position": "CEO",
+        "email": "John@outlook.com",
+        "phone": "0422 095 114",
+        "DOB": "12.09.1982"
+      },
+      {
+        "id": 4,
+        "image": "https://vig",
+        "name": "John Doe",
+        "position": "CEO",
+        "email": "John@outlook.com",
+        "phone": "0422 095 114",
+        "DOB": "12.09.1982"
+      },
+      {
+        "id": 5,
+        "image": "https://vig",
+        "name": "John Doe",
+        "position": "CEO",
+        "email": "John@outlook.com",
+        "phone": "0422 095 114",
+        "DOB": "12.09.1982"
+      },
+      {
+        "id": 6,
+        "image": "https://vig",
+        "name": "John Doe",
+        "position": "CEO",
+        "email": "John@outlook.com",
+        "phone": "0422 095 114",
+        "DOB": "12.09.1982"
+      },
+      {
+        "id": 7,
+        "image": "https://vig",
+        "name": "John Doe",
+        "position": "CEO",
+        "email": "John@outlook.com",
+        "phone": "0422 095 114",
+        "DOB": "12.09.1982"
+      },
+      {
+        "id": 8,
+        "image": "https://vig",
+        "name": "John Doe",
+        "position": "CEO",
+        "email": "John@outlook.com",
+        "phone": "0422 095 114",
+        "DOB": "12.09.1982"
+      }
+]
+  
+  
