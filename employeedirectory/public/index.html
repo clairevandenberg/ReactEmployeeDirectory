@@ -28,6 +28,14 @@
     -->
     <title>React App</title>
   </head>
+
+<script>
+let PORT = process.env.PORT || 3000; 
+
+app.get("/", function(req, res) {
+  res.json(path.join(__dirname, "public/index.html"));
+</script>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
