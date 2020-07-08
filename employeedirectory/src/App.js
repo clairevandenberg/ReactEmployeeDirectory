@@ -5,13 +5,16 @@ import Title from "./components/Title";
 import employees from "./employees.json";
 import SearchForm from "./components/SearchForm";
 import Hero from "./components/Hero";
+import EmployeeTable from "./components/EmployeeTable";
+import Sorting from "./components/Sorting";
 
 
 class App extends Component {
-  // // Setting this.state.employees to the employee json array
-  // state = {
-  //   employees: ['']
-  // };
+  // Setting this.state.employees to the employee json array
+  state = {
+    sortType: 'ascending',
+    employees: ['']
+  };
 
   // componentDidMount = query => {
   //   employees.search(query)
@@ -27,6 +30,16 @@ class App extends Component {
 
 
   render() {
+      const {employees, sortType} = this.state;
+
+      const sorted = employees.sort( (a,b)=>{
+        const isReversed = (sortType === 'ascending') ? 1: -1;
+      return isReversed * a.name.localCompare(b.name)
+      });
+      
+     onSort =  sortType => {
+       this.setState({sortType})
+     }
 
     return (
       <Wrapper>
@@ -41,10 +54,14 @@ class App extends Component {
               handleInputChange={this.handleInputChange}
               employee={this.employee}
               />
-        
+            
+            <Sorting
+            ascending={'ascending'}
+            ascending={'descending'}
+            />
           
         {this.state.employees.sorted.map(employees => (
-          <FriendCard
+          <EmployeeTable
             id={employees.id}
             name={employees.name}
             position={employees.position}
